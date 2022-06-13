@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="changgou_common_db" />
+        <module name="changgou_eureka" />
+        <module name="changgou_service_order_api" />
+        <module name="changgou-web-item-api" />
+        <module name="changgou_user_oauth" />
+        <module name="demo" />
+        <module name="health_pojo" />
+        <module name="health_dao" />
+        <module name="health_common" />
+        <module name="health_web" />
+        <module name="changgou_service_order" />
+        <module name="changgou_service_canal" />
+        <module name="changgou_service_content" />
+        <module name="changgou_service_search" />
+        <module name="health_interface" />
+        <module name="code-template" />
+        <module name="changgou-gateway-web" />
+        <module name="changgou_service_search_api" />
+        <module name="changgou_service_user" />
+        <module name="changgou_service_pay" />
+        <module name="changgou_service_user_api" />
+        <module name="health_service" />
+        <module name="changgou-service-rabbitmq" />
+        <module name="changgou_service_seckill" />
+        <module name="changgou_web_search" />
+        <module name="changgou_service_content_api" />
+        <module name="changgou_common" />
+        <module name="changgou_service_file" />
+        <module name="changgou_service_goods_api" />
+        <module name="changgou_service_goods" />
+        <module name="changgou_service_seckill_api" />
+        <module name="changgou_web_item" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="changgou-gateway-web" target="1.8" />
+      <module name="changgou-service-rabbitmq" target="1.8" />
+      <module name="changgou-web-item-api" target="1.8" />
+      <module name="changgou_common" target="8" />
+      <module name="changgou_common_db" target="1.8" />
+      <module name="changgou_eureka" target="1.8" />
+      <module name="changgou_gateway" target="1.8" />
+      <module name="changgou_parent" target="1.8" />
+      <module name="changgou_service" target="1.8" />
+      <module name="changgou_service_api" target="1.8" />
+      <module name="changgou_service_canal" target="1.8" />
+      <module name="changgou_service_content" target="1.8" />
+      <module name="changgou_service_content_api" target="1.8" />
+      <module name="changgou_service_file" target="1.8" />
+      <module name="changgou_service_goods" target="1.8" />
+      <module name="changgou_service_goods_api" target="1.8" />
+      <module name="changgou_service_order" target="1.8" />
+      <module name="changgou_service_order_api" target="1.8" />
+      <module name="changgou_service_pay" target="1.8" />
+      <module name="changgou_service_search" target="1.8" />
+      <module name="changgou_service_search_api" target="1.8" />
+      <module name="changgou_service_seckill" target="1.8" />
+      <module name="changgou_service_seckill_api" target="1.8" />
+      <module name="changgou_service_user" target="1.8" />
+      <module name="changgou_service_user_api" target="1.8" />
+      <module name="changgou_user_oauth" target="1.8" />
+      <module name="changgou_web" target="1.8" />
+      <module name="changgou_web_item" target="1.8" />
+      <module name="changgou_web_search" target="1.8" />
+      <module name="code-template" target="6" />
+      <module name="demo" target="1.8" />
+      <module name="health_common" target="1.8" />
+      <module name="health_dao" target="1.8" />
+      <module name="health_interface" target="1.8" />
+      <module name="health_parent" target="1.8" />
+      <module name="health_pojo" target="1.8" />
+      <module name="health_service" target="1.8" />
+      <module name="health_web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="changgou-gateway-web" options="-parameters" />
+      <module name="changgou-service-rabbitmq" options="-parameters" />
+      <module name="changgou-web-item-api" options="-parameters" />
+      <module name="changgou_common" options="-parameters" />
+      <module name="changgou_common_db" options="-parameters" />
+      <module name="changgou_eureka" options="-parameters" />
+      <module name="changgou_service_canal" options="-parameters" />
+      <module name="changgou_service_content" options="-parameters" />
+      <module name="changgou_service_content_api" options="-parameters" />
+      <module name="changgou_service_file" options="-parameters" />
+      <module name="changgou_service_goods" options="-parameters" />
+      <module name="changgou_service_goods_api" options="-parameters" />
+      <module name="changgou_service_order" options="-parameters" />
+      <module name="changgou_service_order_api" options="-parameters" />
+      <module name="changgou_service_pay" options="-parameters" />
+      <module name="changgou_service_search" options="-parameters" />
+      <module name="changgou_service_search_api" options="-parameters" />
+      <module name="changgou_service_seckill" options="-parameters" />
+      <module name="changgou_service_seckill_api" options="-parameters" />
+      <module name="changgou_service_user" options="-parameters" />
+      <module name="changgou_service_user_api" options="-parameters" />
+      <module name="changgou_user_oauth" options="-parameters" />
+      <module name="changgou_web_item" options="-parameters" />
+      <module name="changgou_web_search" options="-parameters" />
+    </option>
+  </component>
+</project>
